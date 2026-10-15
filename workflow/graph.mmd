@@ -1,0 +1,35 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	orchestrator(orchestrator)
+	story(story)
+	character(character)
+	world(world)
+	soundtrack(soundtrack)
+	sound_effects(sound_effects)
+	code(code)
+	test(test)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> orchestrator;
+	character --> orchestrator;
+	code --> orchestrator;
+	orchestrator -. &nbsp;end&nbsp; .-> __end__;
+	orchestrator -.-> character;
+	orchestrator -.-> code;
+	orchestrator -.-> sound_effects;
+	orchestrator -.-> soundtrack;
+	orchestrator -.-> story;
+	orchestrator -.-> test;
+	orchestrator -.-> world;
+	sound_effects --> orchestrator;
+	soundtrack --> orchestrator;
+	story --> orchestrator;
+	test --> orchestrator;
+	world --> orchestrator;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc

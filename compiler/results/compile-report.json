@@ -1,0 +1,15 @@
+{
+  "target": "arcade",
+  "targetVersion": "4.1.25",
+  "compilerVersion": "13.1.23",
+  "mode": "official_python_to_typescript_and_simulator_compile",
+  "sourceSha256": "49d301d78898d66a7b2c4b1449c3c2ee84e82e580c3d4d1fa21b83b7f2ab020b",
+  "success": true,
+  "diagnostics": [],
+  "outfiles": [
+    "main.ts",
+    "binary.js"
+  ],
+  "checkedAt": "2026-10-15T01:26:06.739Z",
+  "runtimeVerified": false
+}

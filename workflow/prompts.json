@@ -1,0 +1,9 @@
+{
+  "story": "Review the family-friendly narrative and map progression; identify inconsistencies and propose concrete revisions.",
+  "character": "Review native Arcade pixel assets for readable hero, creatures, fragments, portals and animation consistency.",
+  "world": "Review three scrolling maps, spawns, reachable collectibles and exits; preserve top-down movement.",
+  "soundtrack": "Review original R&B, hip-hop and soul-inspired per-map melody assignments and transitions, using only native Arcade music APIs.",
+  "sound_effects": "Review distinct feedback for attacks, dashes, pickups, damage, enemy hits, exits, victory and defeat; prevent blocking gameplay or conflicting music.",
+  "code": "Review integration and native MakeCode Python compatibility. Return proposed changes in the report; never claim unperformed compilation or simulator checks.",
+  "test": "Independently review host test results and limitations; reject release without current source-bound fresh-import simulator evidence."
+}

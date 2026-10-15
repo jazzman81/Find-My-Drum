@@ -1,0 +1,11 @@
+{
+  "source_sha256": "49d301d78898d66a7b2c4b1449c3c2ee84e82e580c3d4d1fa21b83b7f2ab020b",
+  "cartridge_sha256": "fa03e17ab33de4df8ecbcbe2e8380257a4f4a539188edbe5c8d6072a9bacc72f",
+  "compiler_passed": true,
+  "fresh_import_passed": true,
+  "gameplay_passed": false,
+  "audio_playback_passed": false,
+  "observer": "Codex, official compiler and MakeCode UI",
+  "observed_at": "2026-10-15T01:26:03.449680+00:00",
+  "notes": "Official Python and exact exported file set compile with zero diagnostics. PNG roundtrip passes. MakeCode UI opened Audio Edition as Python and displayed new map/audio code. Runtime verification blocked by repeated simulator renderer and editor crashes."
+}
